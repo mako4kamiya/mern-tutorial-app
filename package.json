@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "server": "npm run server --prefix nodejs-express-mongodb",
+        "client": "npm run start --prefix react-hooks-crud-web-api",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+        "concurrently": "^5.3.0"
+    }
+}

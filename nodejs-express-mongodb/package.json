@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node server.js",
-    "client": "npm run start --prefix ../react-hooks-crud-web-api",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "node server.js"
   },
   "keywords": [
     "nodejs",
